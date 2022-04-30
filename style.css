@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(211, 225, 226, 0.897);
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-family: "Sansita Swashed", cursive;
+}
+
+h2 {
+  text-align: center;
+}
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgb(0, 0, 0, 0.3);
+  width: 500px;
+  padding-bottom: 10px;
+}
+
+button {
+  margin-left: 200px;
+}
+
+#camera--view{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    width: 500px;
+    height: 350px;
+}
+
+#camera--sensor{
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+
+;
+
+}
+
+#camera--output{
+    width: 495px;
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#camera--output.taken{
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
